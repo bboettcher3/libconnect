@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Configure a device listed below:
+  ul
+  each port in ports
+    li= port.comName
